@@ -1,0 +1,172 @@
+/* colors used
+#FFECF0; pink
+#EDF2F4; gray
+*/
+
+/* Website styles */
+
+html{
+  box-sizing: border-box;
+}
+*,*:before, *:after{
+  box-sizing: inherit;
+}
+body {
+font-family: 'Lato light', sans-serif;
+margin: 0;
+}
+
+.content-wrap {
+  max-width: 950px;
+  margin: 0 auto;
+  padding: 60px 50px;
+  overflow: hidden;
+}
+
+
+.uppercase{
+  text-transform: uppercase;
+}
+
+.btn{
+  text-decoration: none;
+  background: white;
+  color: #gray;
+  padding: 10px;
+  display: inline-block;
+}
+
+h1{
+  font-family: 'Lato light', cursive;
+	color: black;
+  text-align: center;
+}
+
+h2{
+margin-top: 0;
+}
+
+h3 {
+  margin: 0;
+}
+
+/* Header and footer*/
+header{
+  font-family: 'Lato', cursive;
+	background: white;
+	color: black;
+  padding-top: 50px;
+  position: relative;
+}
+
+.download{
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+
+.profile-img{
+  border-radius: 50%;
+}
+
+header h2 {
+	color: black;
+  margin: 0;
+}
+
+/* Navigation */
+
+nav {
+    font-family: 'Lato light', cursive;
+  text-align: right;
+  background: white;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+
+nav a{
+  display: inline-block;
+  padding: 15px 20px;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+
+footer {
+ background: white;
+ text-align: center;
+ color: black;
+}
+
+/*links */
+
+a {
+	color: #000000
+
+}
+
+a:hover {
+background-color: lightgray;
+}
+
+/*sections */
+
+/* Work Experience */
+.work {
+	background: white;
+}
+
+h3 ~ p{
+  margin: 0;
+}
+.job-description{
+  margin-bottom: 25px;
+}
+.job-description p:first-of-type{
+  margin-top: 0;
+}
+
+
+/* Education */
+
+.education {
+  background: white ,
+  url(../images/Biomedical.jpg) no-repeat fixed ;
+  background-size: cover;
+}
+
+p + h3{
+  margin-top: 30px;
+}
+
+.contact-info a   {
+  background: lightgray;
+  padding:  10px;
+  display: inline-block;
+}
+
+@media (min-width: 900px){
+  .col-narrow {
+    width: 30%;
+    float:left;
+
+  }
+
+  .col-wide {
+    width: 70%;
+    float: left;
+    padding-left: 20px;
+  }
+
+}
+
+@media (max-width:899px){
+  header {
+    text-align: center;
+  }
+  .profile-img {
+    width: 200px;
+  }
+}
