@@ -16,10 +16,11 @@ font-family: 'Lato light', sans-serif;
 margin: 0;
 }
 
+
 .content-wrap {
   max-width: 950px;
   margin: 0 auto;
-  padding: 60px 50px;
+  padding: 60px 60px;
   overflow: hidden;
 }
 
@@ -37,13 +38,16 @@ margin: 0;
 }
 
 h1{
-  font-family: 'Lato light', cursive;
+  font-family: 'Lato', cursive;
 	color: black;
   text-align: center;
 }
 
 h2{
 margin-top: 0;
+font-family: 'Lato', cursive;
+color: #4AB0B2;
+text-align: left;
 }
 
 h3 {
@@ -53,10 +57,11 @@ h3 {
 /* Header and footer*/
 header{
   font-family: 'Lato', cursive;
-	background: white;
-	color: black;
+  height: 750px;
   padding-top: 50px;
   position: relative;
+  background:  url(../images/About.png);
+  background-size: cover;
 }
 
 .download{
@@ -66,18 +71,17 @@ header{
 }
 
 .profile-img{
-  border-radius: 50%;
 }
 
 header h2 {
-	color: black;
+	color: #4AB0B2;
   margin: 0;
 }
 
 /* Navigation */
 
 nav {
-    font-family: 'Lato light', cursive;
+  font-family: 'Lato', cursive;
   text-align: right;
   background: white;
   position: fixed;
@@ -88,8 +92,9 @@ nav {
 
 nav a{
   display: inline-block;
-  padding: 15px 20px;
+  padding: 25px 30px;
   text-decoration: none;
+  color: #4AB0B2;
   text-transform: uppercase;
   font-weight: 700;
 }
@@ -133,7 +138,7 @@ h3 ~ p{
 
 .education {
   background: white ,
-  url(../images/Biomedical.jpg) no-repeat fixed ;
+  url(../images/About.jpg) fixed ;
   background-size: cover;
 }
 
@@ -167,6 +172,6 @@ p + h3{
     text-align: center;
   }
   .profile-img {
-    width: 200px;
+    width: px;
   }
 }
