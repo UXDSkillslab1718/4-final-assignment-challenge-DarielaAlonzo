@@ -55,7 +55,8 @@ text-align: left;
 }
 
 h3 {
-  margin: 0;
+    font-family: 'Lato', cursive;
+  margin-top: 0;
 }
 
 /* Header and footer*/
