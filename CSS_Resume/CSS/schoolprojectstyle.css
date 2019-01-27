@@ -33,13 +33,6 @@ margin: 0;
   text-transform: uppercase;
 }
 
-.btn{
-  text-decoration: none;
-  background: white;
-  color: #gray;
-  padding: 10px;
-  display: inline-block;
-}
 
 h1{
   font-family: 'Lato', cursive;
@@ -67,14 +60,7 @@ header{
   background: white;
 }
 
-.download{
-  position: absolute;
-  bottom: 0;
-  right: 0;
-}
 
-.profile-img{
-}
 
 header h2 {
 	color: #4AB0B2;
@@ -134,22 +120,6 @@ background-color: lightgray;
 h3 ~ p{
   margin: 0;
 }
-.job-description{
-  margin-bottom: 25px;
-}
-.job-description p:first-of-type{
-  margin-top: 0;
-}
-
-
-/* Education */
-
-.education {
-  background: white ,
-  url(../images/About.jpg) fixed ;
-  background-size: cover;
-}
-
 p + h3{
   margin-top: 30px;
 }
