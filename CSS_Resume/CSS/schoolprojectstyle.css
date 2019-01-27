@@ -57,8 +57,7 @@ h3 {
 /* Header and footer*/
 header{
   font-family: 'Lato', cursive;
-  height: 750px;
-  padding-top: 50px;
+  padding-top: 20px;
   position: relative;
   background: white;
 }
@@ -118,8 +117,9 @@ background-color: lightgray;
 /*sections */
 
 /* Work Experience */
-.work {
-	background: white;
+.BIOS {
+  background:linear-gradient(rgba(255, 255, 255, 0.7),rgba(255, 255, 255, 0.7)), url(../images/Agenda.png) fixed ;
+  background-size: cover;
 }
 
 h3 ~ p{
