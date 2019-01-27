@@ -1,0 +1,176 @@
+/* colors used
+#FFECF0; pink
+#EDF2F4; gray
+*/
+
+/* Website styles */
+
+html{
+  box-sizing: border-box;
+}
+*,*:before, *:after{
+  box-sizing: inherit;
+}
+body {
+font-family: 'Lato light', sans-serif;
+margin: 0;
+}
+
+
+.content-wrap {
+  max-width: 950px;
+  margin: 0 auto;
+  padding: 60px 60px;
+  overflow: hidden;
+}
+
+
+.uppercase{
+  text-transform: uppercase;
+}
+
+.btn{
+  text-decoration: none;
+  background: white;
+  color: #gray;
+  padding: 10px;
+  display: inline-block;
+}
+
+h1{
+  font-family: 'Lato', cursive;
+	color: black;
+  text-align: center;
+}
+
+h2{
+margin-top: 0;
+font-family: 'Lato', cursive;
+color: #4AB0B2;
+text-align: left;
+}
+
+h3 {
+  margin: 0;
+}
+
+/* Header and footer*/
+header{
+  font-family: 'Lato', cursive;
+  height: 750px;
+  padding-top: 50px;
+  position: relative;
+  background: white;
+}
+
+.download{
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+
+.profile-img{
+}
+
+header h2 {
+	color: #4AB0B2;
+  margin: 0;
+}
+
+/* Navigation */
+
+nav {
+  font-family: 'Lato', cursive;
+  text-align: right;
+  background: white;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+
+nav a{
+  display: inline-block;
+  padding: 25px 30px;
+  text-decoration: none;
+  color: #4AB0B2;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+
+footer {
+ background: white;
+ text-align: center;
+ color: black;
+}
+
+/*links */
+
+a {
+	color: #000000
+
+}
+
+a:hover {
+background-color: lightgray;
+}
+
+/*sections */
+
+/* Work Experience */
+.work {
+	background: white;
+}
+
+h3 ~ p{
+  margin: 0;
+}
+.job-description{
+  margin-bottom: 25px;
+}
+.job-description p:first-of-type{
+  margin-top: 0;
+}
+
+
+/* Education */
+
+.education {
+  background: white ,
+  url(../images/About.jpg) fixed ;
+  background-size: cover;
+}
+
+p + h3{
+  margin-top: 30px;
+}
+
+.contact-info a   {
+  background: lightgray;
+  padding:  10px;
+  display: inline-block;
+}
+
+@media (min-width: 900px){
+  .col-narrow {
+    width: 30%;
+    float:left;
+
+  }
+
+  .col-wide {
+    width: 70%;
+    float: left;
+    padding-left: 20px;
+  }
+
+}
+
+@media (max-width:899px){
+  header {
+    text-align: center;
+  }
+  .profile-img {
+    width: px;
+  }
+}
